@@ -1,0 +1,91 @@
+
+.css-button-sharp--black {
+    min-width: 220px;
+    height: 60px;
+    color: #fff;
+    padding: 5px 20px;
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #221818;
+    background: #221818;
+    margin-top: 20px;
+    
+    /* ポジションのお決まりTOP */
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+  }
+  .css-button-sharp--black:hover {
+    background: #fff;
+    color: #221818;
+  }
+
+
+  /* ボタン2 */
+  .css-button-sharp--black2 {
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    /* padding: 5px 20px; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #221818;
+    background: #221818;
+    /* ポジションのお決まり */
+  }
+  .css-button-sharp--black2:hover {
+    background: #fff;
+    color: #221818;
+  }
+
+
+  /* ボタン3 */
+  .css-button-sharp--black3 {
+    width: 127px;
+    height: 35px;
+    color: #fff;
+    /* padding: 5px 20px; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #221818;
+    background: #221818;
+    /* ポジションのお決まり */
+  }
+  .css-button-sharp--black3:hover {
+    background: #fff;
+    color: #221818
+  }
+
+  /* レスポンシブ */
+  @media (max-width: 500px) {
+    .css-button-sharp--black {
+      min-width: 160px;
+      height: 40px;
+      padding: 5px 20px;
+      margin-top: 20px;
+      
+      /* ポジションのお決まりTOP */
+      position: absolute;
+      top: 64%;
+      left: 50%;
+      font-size: 1.6rem;
+    }
+
+  }

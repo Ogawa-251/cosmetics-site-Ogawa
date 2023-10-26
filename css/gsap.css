@@ -1,0 +1,57 @@
+.slide-show {
+  width: 80%;
+  height: 60vh;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slide-show_panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-show_panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* .slide-show_panel:nth-child(1) {
+  background: rgb(182, 73, 255);
+  opacity: 0;
+}
+.slide-show_panel:nth-child(2) {
+  background: orange;
+  opacity: 0;
+}
+.slide-show_panel:nth-child(3) {
+  background: silver;
+  opacity: 0;
+} */
+
+.slide-show_panel:nth-child(1) {
+  background-image: url('../img/img13.jpg'); /* 画像のパスを指定 */
+  background-size: cover; /* 画像を要素に合わせて調整 */
+  background-position: center;
+  opacity: 0;
+}
+
+.slide-show_panel:nth-child(2) {
+  background-image: url('../img/img12.jpg'); /* 画像のパスを指定 */
+  background-size: cover; /* 画像を要素に合わせて調整 */
+  background-position: center;
+  opacity: 0;
+}
+
+.slide-show_panel:nth-child(3) {
+  background-image: url('../img/img14.jpg'); /* 画像のパスを指定 */
+  background-size: cover; /* 画像を要素に合わせて調整 */
+  background-position: center;
+  opacity: 0;
+}
